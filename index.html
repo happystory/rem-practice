@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>新闻列表</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <div class="header">
+    <ul class="header-content clearfix">
+      <li class="header-item">推荐</li>
+      <li class="header-item">新闻</li>
+      <li class="header-item">娱乐</li>
+      <li class="header-item">体育</li>
+      <li class="header-item">图片</li>
+      <li class="header-item">财经</li>
+    </ul>
+  </div>
+  <div class="banner-content">
+    <img class="banner" src="./images/timg.jpg" alt="">
+    <p class="banner-title">发现不一样的世界</p>
+  </div>
+  <div class="news-content">
+    <ul>
+      <li class="news-item">
+        <div class="item-inner">
+          <img class="news-img" src="./images/timg01.jpg" alt="">
+          <p class="news-title">为什么那么多的白人会认为中国女孩是easy girl？</p>
+          <span class="time">1小时前</span>
+          <span class="num">999</span>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li class="news-item">
+        <div class="item-inner">
+          <img class="news-img" src="./images/timg01.jpg" alt="">
+          <p class="news-title">为什么那么多的白人会认为中国女孩是easy girl？</p>
+          <span class="time">1小时前</span>
+          <span class="num">34</span>
+        </div>
+      </li>
+    </ul><ul>
+      <li class="news-item">
+        <div class="item-inner">
+          <img class="news-img" src="./images/timg01.jpg" alt="">
+          <p class="news-title">为什么那么多的白人会认为中国女孩是easy girl？</p>
+          <span class="time">1小时前</span>
+          <span class="num">552</span>
+        </div>
+      </li>
+    </ul><ul>
+      <li class="news-item">
+        <div class="item-inner">
+          <img class="news-img" src="./images/timg01.jpg" alt="">
+          <p class="news-title">为什么那么多的白人会认为中国女孩是easy girl？</p>
+          <span class="time">1小时前</span>
+          <span class="num">67</span>
+        </div>
+      </li>
+    </ul><ul>
+      <li class="news-item">
+        <div class="item-inner">
+          <img class="news-img" src="./images/timg01.jpg" alt="">
+          <p class="news-title">为什么那么多的白人会认为中国女孩是easy girl？</p>
+          <span class="time">1小时前</span>
+          <span class="num">135</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script>
+    (function() {
+      var htmlWidth = document.documentElement.clientWidth || document.body.clientWidth
+      var htmlDom = document.getElementsByTagName('html')[0]
+
+      htmlDom.style.fontSize = htmlWidth / 10 + 'px'
+
+      window.addEventListener('resize', function(event) {
+        var htmlWidth = document.documentElement.clientWidth || document.body.clientWidth
+        htmlDom.style.fontSize = htmlWidth / 10 + 'px'
+      }, false)
+    }())
+  </script>
+</body>
+</html>
